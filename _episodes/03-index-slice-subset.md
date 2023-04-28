@@ -487,7 +487,7 @@ Experiment with selecting various subsets of the "waves" data.
 >
 > 4. The `~` symbol in Python can be used to return the OPPOSITE of the
 >   selection that you specify in Python. It is equivalent to **is not in**.
->   Write a query that selects all rows with Country NOT equal to 'England' or 'Wales' in
+>   Write a query that selects all rows with Quadrant NOT equal to 'south' or 'west' in
 >   the "waves" data.
 {: .challenge}
 
@@ -581,10 +581,10 @@ asking Python to select rows that have a `NaN` value of Temperature.
 >   Verify the result by comparing the number of rows in the new DataFrame with
 >   the number of rows in the waves DataFrame where Site Type is null.
 >
-> 2. Create a new DataFrame that contains only observations that are of Country
->  Wales or Ireland and where Tpeak values are greater than 10. Create a stacked bar
->   plot of average Tpeak by plot with Ocean vs Coastal values stacked for each
->   plot.
+> 2. Create a new DataFrame that contains only observations that are safe to work in, 
+> i.e. 'Operations' contains 'crew' or 'survey' and where Temperature values are greater than 10. 
+>  Create a stacked bar plot of average Temperature by plot with crew vs survey values 
+>  stacked for each plot.
 {: .challenge}
 
 {% include links.md %}
